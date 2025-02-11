@@ -33,7 +33,7 @@ class Menu extends Phaser.Scene {
             fontFamily: 'Courier',
             fontSize: '70px',
             fontStyle: 'bold',
-            color: '#000000',
+            color: '#843605',
             align: 'right',
             fixedWidth: 0
         }
@@ -41,7 +41,7 @@ class Menu extends Phaser.Scene {
             fontFamily: 'Courier',
             fontSize: '20px',
             fontStyle: 'bold',
-            color: '#000000',
+            color: '#843605',
             align: 'right',
             fixedWidth: 0
         }
@@ -53,7 +53,7 @@ class Menu extends Phaser.Scene {
         this.add.text(185, 190, 'Start Game', tutorialConfig).setOrigin(0.5)
         this.add.text(410, 190, 'Pause Game', tutorialConfig).setOrigin(0.5)
         this.add.text(640, 190, 'Move Character', tutorialConfig).setOrigin(0.5)
-        this.add.text(game.config.width/2, 700, 'FARM ATTACK', menuConfig).setOrigin(0.5)
+        this.add.text(game.config.width/2, game.config.height/2, 'FARM ATTACK', menuConfig).setOrigin(0.5)
         menuConfig.backgroundColor = '#00FF00'
         menuConfig.color = '#000'
         // define keys

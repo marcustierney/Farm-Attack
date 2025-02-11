@@ -4,7 +4,7 @@ class Credits extends Phaser.Scene {
     }
     create() {
         //Display Credits
-        this.add.text(game.config.width / 2, 50, 'Audio Credits:', { 
+        this.add.text(game.config.width / 2, 50, 'Credits:', { 
             fontFamily: 'Courier', 
             fontSize: '32px', 
             fontStyle: 'bold', 
@@ -64,7 +64,33 @@ class Credits extends Phaser.Scene {
             fontStyle: 'bold', 
             color: '#FFFFFF' 
         }).setOrigin(0.5);
-        this.add.text(game.config.width / 2, 550, 'Press (M) for Menu', { 
+        this.add.text(game.config.width / 2, 510, 'Farm animals pixel art icon set. Domestic countryside', { 
+            fontFamily: 'Courier', 
+            fontSize: '24px', 
+            fontStyle: 'bold', 
+            color: '#FFFFFF' 
+        }).setOrigin(0.5);
+        this.add.text(game.config.width / 2, 540, 'pets: horse, cow, chicken, rabbit, sheep, and pig logo', { 
+            fontFamily: 'Courier', 
+            fontSize: '24px', 
+            fontStyle: 'bold', 
+            color: '#FFFFFF' 
+        }).setOrigin(0.5);
+        this.add.text(game.config.width / 2, 570, 'collection. 8-bit sprite. Game development, mobile app.', { 
+            fontFamily: 'Courier', 
+            fontSize: '24px', 
+            fontStyle: 'bold', 
+            color: '#FFFFFF' 
+        }).setOrigin(0.5);
+        this.add.text(game.config.width / 2, 600, 'Isolated vector illustration. by SickleMoon', { 
+            fontFamily: 'Courier', 
+            fontSize: '26px', 
+            fontStyle: 'bold', 
+            color: '#FFFFFF' 
+        }).setOrigin(0.5);
+
+
+        this.add.text(game.config.width / 2, 750, 'Press (M) for Menu', { 
             fontFamily: 'Courier', 
             fontSize: '32px', 
             fontStyle: 'bold', 

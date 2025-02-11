@@ -86,7 +86,7 @@ class Play extends Phaser.Scene {
                 fontStyle: 'bold',
             }).setOrigin(0.5).setVisible(false);
 
-            this.timeText = this.add.text(width / 2, 16, 'Time: 0', { //Timer text
+            this.timeText = this.add.text(width / 2, 16, 'Points: 0', { //Timer text
                 fontSize: '32px',
                 fill: '#fff',
                 fontStyle: 'bold',
@@ -220,19 +220,19 @@ class Play extends Phaser.Scene {
         ball.setVelocity(velocityX, velocityY);
         ball.setCollideWorldBounds(false);
         if (ballType === 'big-ball') {
-            ball.setScale(1.5);
+            ball.setScale(1);
             this.sound.play('oink');
         }
         else if (ballType === 'ball-diagonal') {
-            ball.setScale(.9);
+            ball.setScale(.5);
             this.sound.play('neigh', { volume: 3.0 });
         }
         else if (ballType === 'ball2') {
-            ball.setScale(.8);
+            ball.setScale(.3);
             this.sound.play('cluck');
         }
         else {
-            ball.setScale(.8);
+            ball.setScale(.5);
             this.sound.play('moo');
         }
         //Sound effects
